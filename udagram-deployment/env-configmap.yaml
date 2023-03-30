@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: udagram-anmt2-bucket
+  AWS_PROFILE: udacity-anmt2
+  AWS_REGION: us-east-1
+  JWT_SECRET: Th1s1sR4nd0mS3cr3t
+  POSTGRES_DB: postgres
+  POSTGRES_HOST: database.cewc5zil8xxv.us-east-1.rds.amazonaws.com
+  URL: http://localhost:8100
+  NODE_OPTIONS: --max-old-space-size=1024
+metadata:
+  name: env-config
